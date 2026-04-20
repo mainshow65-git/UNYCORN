@@ -1,0 +1,19 @@
+# unycorn Solutions Robots.txt
+# Last updated: 2023
+
+User-agent: *
+Allow: /
+Allow: /Products/
+Allow: /img/
+Allow: /css/
+Allow: /js/
+
+# Prevent crawling of non-essential directories
+Disallow: /lib/
+Disallow: /scss/
+
+# Crawl delay to prevent server overload
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://main-unycorn.vercel.app/sitemap.xml
